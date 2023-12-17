@@ -14,16 +14,44 @@ public class SelectionSorter {
         int length = data.length;
         log.info("Sorting {} elements.", length);
 
+        for (int i = 0; i < length - 1; i++) {
+            int minIndex = i;
+            int min = data[minIndex];
 
-        for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length; j++) {
-                if (data[j] < data[i]) {
-                    swap(data, i, j);
+                if (data[j] < min) {
+                    minIndex = j;
+                    min = data[minIndex];
                 }
+            }
+
+            if (minIndex != i) {
+                swap(data, i, minIndex);
             }
         }
 
     }
+
+    // Slower because every time we access to array by index
+    public void sort2(int[] data) {
+        int length = data.length;
+        log.info("Sorting {} elements.", length);
+
+        for (int i = 0; i < length - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < length; j++) {
+                if (data[j] < data[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            if (minIndex != i) {
+                swap(data, i, minIndex);
+            }
+        }
+
+    }
+
 
     private void swap(int[] arr, int indexA, int indexB) {
         int tmp = arr[indexA];
@@ -31,6 +59,7 @@ public class SelectionSorter {
         arr[indexB] = tmp;
     }
 
+    // Sort version for array list.
     public List<Integer> sort(ArrayList<Integer> data) {
         int length = data.size();
         log.info("Sorting list of {} elements.", length);
@@ -57,26 +86,29 @@ public class SelectionSorter {
 
         return minIndex;
     }
-//
-//    public List<Integer> sort(LinkedList<Integer> data) {
-//        log.info("Sorting linked list");
-//
-//        List<Integer> result = new LinkedList<>();
-//        // todo:
-//
-//        return result;
-//    }
-//
-//    private Integer findMin(LinkedList<Integer> list) {
-//        Iterator<Integer> it = list.iterator();
-//        int min = it.next();
-//
-//        while (it.hasNext()) {
-//            Integer val = it.next();
-//            if (val < min) {
-//                min = val;
-//            }
-//        }
-//        return min;
-//    }
+
+    // Sort version for linked list - not ready, because it's not clear how to remove found min value w/o access by index.
+    // Perhaps it can be done only inside from custom List impl, where we can preserve pointers and change them between
+    // elements.
+    public List<Integer> sort(LinkedList<Integer> data) {
+        log.info("Sorting linked list");
+
+        List<Integer> result = new LinkedList<>();
+        // todo:
+
+        return result;
+    }
+
+    private Integer findMin(LinkedList<Integer> list) {
+        Iterator<Integer> it = list.iterator();
+        int min = it.next();
+
+        while (it.hasNext()) {
+            Integer val = it.next();
+            if (val < min) {
+                min = val;
+            }
+        }
+        return min;
+    }
 }

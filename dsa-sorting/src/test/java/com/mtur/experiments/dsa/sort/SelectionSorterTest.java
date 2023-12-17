@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Slf4j
 class SelectionSorterTest {
-    private final int COUNT = 100_000;
+    private final int COUNT = 200_000;
     private SelectionSorter sorter = new SelectionSorter();
 
     @Test
@@ -24,6 +24,7 @@ class SelectionSorterTest {
 
         long start = System.currentTimeMillis();
         sorter.sort(ints);
+//        sorter.sort2(ints);
 
         log.info("Sorted time: {} ms", System.currentTimeMillis() - start);
 
