@@ -24,7 +24,6 @@ class SelectionSorterTest {
 
         long start = System.currentTimeMillis();
         sorter.sort(ints);
-//        sorter.sort2(ints);
 
         log.info("Sorted time: {} ms", System.currentTimeMillis() - start);
 

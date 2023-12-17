@@ -7,6 +7,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
+import static com.mtur.experiments.dsa.sort.SortUtils.swap;
+
 @Slf4j
 public class SelectionSorter {
 
@@ -32,32 +34,8 @@ public class SelectionSorter {
 
     }
 
-    // Slower because every time we access to array by index
-    public void sort2(int[] data) {
-        int length = data.length;
-        log.info("Sorting {} elements.", length);
-
-        for (int i = 0; i < length - 1; i++) {
-            int minIndex = i;
-            for (int j = i + 1; j < length; j++) {
-                if (data[j] < data[minIndex]) {
-                    minIndex = j;
-                }
-            }
-
-            if (minIndex != i) {
-                swap(data, i, minIndex);
-            }
-        }
-
-    }
 
 
-    private void swap(int[] arr, int indexA, int indexB) {
-        int tmp = arr[indexA];
-        arr[indexA] = arr[indexB];
-        arr[indexB] = tmp;
-    }
 
     // Sort version for array list.
     public List<Integer> sort(ArrayList<Integer> data) {
