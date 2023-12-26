@@ -1,16 +1,13 @@
 package com.mtur.experiments.dsa.sort;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.stream.Collectors;
+import java.util.List;
+
+import static com.mtur.experiments.dsa.sort.SortUtils.arrayToList;
 
 public interface ArrayListSorter {
-    ArrayList<Integer> sort(ArrayList<Integer> data);
+    List<Integer> sort(List<Integer> data);
 
-    default ArrayList<Integer> sort(int[] data) {
-        ArrayList<Integer> list = Arrays.stream(data)
-                .boxed()
-                .collect(Collectors.toCollection(ArrayList::new));
-        return sort(list);
+    default List<Integer> sort(int[] ints) {
+        return sort(arrayToList(ints));
     }
 }

@@ -2,11 +2,6 @@ package com.mtur.experiments.dsa.sort;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import static com.mtur.experiments.dsa.sort.SortUtils.swap;
 
 @Slf4j
@@ -33,8 +28,4 @@ public class SelectionSorter implements Sorter {
         }
 
     }
-
-
-    // Sort version for array list.
-
 }

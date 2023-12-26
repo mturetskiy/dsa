@@ -3,15 +3,16 @@ package com.mtur.experiments.dsa.sort;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 public class ArrayListSelectionSorter implements ArrayListSorter {
     @Override
-    public ArrayList<Integer> sort(ArrayList<Integer> data) {
+    public List<Integer> sort(List<Integer> data) {
         int length = data.size();
         log.info("Sorting list of {} elements.", length);
 
-        ArrayList<Integer> result = new ArrayList<>(length);
+        List<Integer> result = new ArrayList<>(length);
         for (int i = 0; i < length; i++) {
             int minIndex = findMinIndex(data);
             Integer currMin = data.remove(minIndex);
@@ -21,7 +22,7 @@ public class ArrayListSelectionSorter implements ArrayListSorter {
         return result;
     }
 
-    private int findMinIndex(ArrayList<Integer> list) {
+    private int findMinIndex(List<Integer> list) {
         int minIndex = 0;
         int minValue = list.get(minIndex);
         for (int i = 1; i < list.size(); i++) {
