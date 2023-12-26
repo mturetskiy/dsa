@@ -18,13 +18,19 @@ public class Divider {
 
     public int divideFast(int a, int b) {
         log.info("Fast dividing {} / {}", a, b);
-        return divide(a, b, 1, b);
+
+        int res = divide(Math.abs(a), Math.abs(b), 1, Math.abs(b));
+        if ((a < 0 && b > 0) || (b < 0 && a > 0)) {
+            return - res;
+        }
+
+        return res;
     }
 
     private int divide(int a, int b, int cnt, int origB) {
         log.info("{}/{}, cnt={}", a, b, cnt);
 
-        if (a > b + b) {
+        if (a >= b + b) {
             return divide(a, b + b, cnt + cnt, origB);
         } if (a >= b) { // start again from original B but now for the rest of A
             return cnt + divide(a - b, origB, 1, origB);

@@ -23,5 +23,7 @@ class DividerTest {
         assertEquals(5, divider.divideFast(15, 3));
         assertEquals(4, divider.divideFast(9, 2));
         assertEquals(5, divider.divideFast(63, 12));
+        assertEquals(3, divider.divideFast(10, 3));
+        assertEquals(-2, divider.divideFast(7, -3));
     }
 }
