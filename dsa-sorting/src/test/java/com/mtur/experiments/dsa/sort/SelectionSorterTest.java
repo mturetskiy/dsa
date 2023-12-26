@@ -15,10 +15,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Slf4j
 class SelectionSorterTest {
     private final int COUNT = 200_000;
-    private SelectionSorter sorter = new SelectionSorter();
 
     @Test
     void testSimpleSort() {
+        Sorter sorter = new SelectionSorter();
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
         int[] copy = Arrays.copyOf(ints, ints.length);
 
@@ -34,6 +34,7 @@ class SelectionSorterTest {
 
     @Test
     void testArrayListSort() {
+        ArrayListSorter sorter = new ArrayListSelectionSorter();
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
         ArrayList<Integer> intsList = Arrays.stream(ints).boxed().collect(Collectors.toCollection(ArrayList::new));
 

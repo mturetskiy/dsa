@@ -10,21 +10,22 @@ import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 class QuickSorterTest {
     private final int COUNT = 40_000_000;
-    private QuickSorter sorter = new QuickSorter();
-
     @Test
     void testQuickSortRecursiveBoth() {
+        Sorter sorter = new QuickSorter();
+        Sorter laforeSorter = new LaforeQuickSorter();
+
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
         int[] ints2 = Arrays.copyOf(ints, ints.length);
         int[] copy = Arrays.copyOf(ints, ints.length);
 
         long start = System.currentTimeMillis();
-        sorter.quicksort_r(ints);
+        sorter.sort(ints);
 
         log.info("[Basic] Sorted time: {} ms", System.currentTimeMillis() - start);
 
         long start2 = System.currentTimeMillis();
-        sorter.quicksort_r(ints2, true);
+        laforeSorter.sort(ints2);
 
         log.info("[Lafore] Sorted time: {} ms", System.currentTimeMillis() - start2);
 
@@ -35,11 +36,12 @@ class QuickSorterTest {
 
     @Test
     void testQuickSortBasicRecursive() {
+        Sorter sorter = new QuickSorter();
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
         int[] copy = Arrays.copyOf(ints, ints.length);
 
         long start = System.currentTimeMillis();
-        sorter.quicksort_r(ints);
+        sorter.sort(ints);
 
         log.info("[Basic] Sorted time: {} ms", System.currentTimeMillis() - start);
 
@@ -49,11 +51,12 @@ class QuickSorterTest {
 
     @Test
     void testQuickSortLaforeRecursive() {
+        Sorter sorter = new LaforeQuickSorter();
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
         int[] copy = Arrays.copyOf(ints, ints.length);
 
         long start = System.currentTimeMillis();
-        sorter.quicksort_r(ints, true);
+        sorter.sort(ints);
 
         log.info("[Lafore] Sorted time: {} ms", System.currentTimeMillis() - start);
 
@@ -92,9 +95,10 @@ class QuickSorterTest {
     }
 
     private void testLaforePartition(int[] ints) {
+        LaforeQuickSorter sorter = new LaforeQuickSorter();
         int chosenPivotValue = ints.length > 0 ? ints[ints.length - 1] : -1;
 
-        int pIdx = sorter.partitionLafore(ints);
+        int pIdx = sorter.partition(ints);
 
         if (ints.length > 0) {
             assertTrue(pIdx >= 0);
@@ -104,9 +108,10 @@ class QuickSorterTest {
     }
 
     private void testBasicPartition(int[] ints) {
+        QuickSorter sorter = new QuickSorter();
         int chosenPivotValue = ints.length > 0 ? ints[ints.length - 1] : -1;
 
-        int pIdx = sorter.partitionBasic(ints);
+        int pIdx = sorter.partition(ints);
 
         if (ints.length > 0) {
             assertTrue(pIdx >= 0);

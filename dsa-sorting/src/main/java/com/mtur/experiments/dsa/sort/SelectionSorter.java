@@ -10,8 +10,8 @@ import java.util.List;
 import static com.mtur.experiments.dsa.sort.SortUtils.swap;
 
 @Slf4j
-public class SelectionSorter {
-
+public class SelectionSorter implements Sorter {
+    @Override
     public void sort(int[] data) {
         int length = data.length;
         log.info("Sorting {} elements.", length);
@@ -35,58 +35,6 @@ public class SelectionSorter {
     }
 
 
-
-
     // Sort version for array list.
-    public List<Integer> sort(ArrayList<Integer> data) {
-        int length = data.size();
-        log.info("Sorting list of {} elements.", length);
 
-        List<Integer> result = new ArrayList<>(length);
-        for (int i = 0; i < length; i++) {
-            int minIndex = findMinIndex(data);
-            Integer currMin = data.remove(minIndex);
-            result.add(currMin);
-        }
-
-        return result;
-    }
-
-    private int findMinIndex(ArrayList<Integer> list) {
-        int minIndex = 0;
-        int minValue = list.get(minIndex);
-        for (int i = 1; i < list.size(); i++) {
-            if (list.get(i) < minValue) {
-                minIndex = i;
-                minValue = list.get(i);
-            }
-        }
-
-        return minIndex;
-    }
-
-    // Sort version for linked list - not ready, because it's not clear how to remove found min value w/o access by index.
-    // Perhaps it can be done only inside from custom List impl, where we can preserve pointers and change them between
-    // elements.
-    public List<Integer> sort(LinkedList<Integer> data) {
-        log.info("Sorting linked list");
-
-        List<Integer> result = new LinkedList<>();
-        // todo:
-
-        return result;
-    }
-
-    private Integer findMin(LinkedList<Integer> list) {
-        Iterator<Integer> it = list.iterator();
-        int min = it.next();
-
-        while (it.hasNext()) {
-            Integer val = it.next();
-            if (val < min) {
-                min = val;
-            }
-        }
-        return min;
-    }
 }
