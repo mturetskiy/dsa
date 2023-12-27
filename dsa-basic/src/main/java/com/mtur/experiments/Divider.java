@@ -2,10 +2,13 @@ package com.mtur.experiments;
 
 import lombok.extern.slf4j.Slf4j;
 
+import static java.lang.Integer.MAX_VALUE;
+import static java.lang.Integer.MIN_VALUE;
+import static java.lang.Math.abs;
+
 @Slf4j
 public class Divider {
     public int divide(int a, int b) {
-        log.info("Dividing {} / {}", a, b);
         int res = 0;
         int tmp = a;
         while (tmp >= b) {
@@ -17,19 +20,21 @@ public class Divider {
     }
 
     public int divideFast(int a, int b) {
-        log.info("Fast dividing {} / {}", a, b);
-
-        int res = divide(Math.abs(a), Math.abs(b), 1, Math.abs(b));
+        long res = divide(abs((long)a), abs((long)b), 1, abs((long)b));
         if ((a < 0 && b > 0) || (b < 0 && a > 0)) {
-            return - res;
+            res = - res;
         }
 
-        return res;
+        if (res < MIN_VALUE) {
+            return MIN_VALUE;
+        } else if (res > MAX_VALUE) {
+            return MAX_VALUE;
+        }
+
+        return (int)res;
     }
 
-    private int divide(int a, int b, int cnt, int origB) {
-        log.info("{}/{}, cnt={}", a, b, cnt);
-
+    private long divide(long a, long b, long cnt, long origB) {
         if (a >= b + b) {
             return divide(a, b + b, cnt + cnt, origB);
         } if (a >= b) { // start again from original B but now for the rest of A
