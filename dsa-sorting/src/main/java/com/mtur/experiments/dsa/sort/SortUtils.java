@@ -15,6 +15,13 @@ public class SortUtils {
         SWAP_COUNT++;
     }
 
+    public static void swap(List<Integer> al, int indexA, int indexB) {
+        int tmp = al.get(indexA);
+        al.set(indexA, al.get(indexB));
+        al.set(indexB, tmp);
+        SWAP_COUNT++;
+    }
+
     public static int[] listToArray(List<Integer> list) {
         return list.stream().mapToInt(Integer::intValue).toArray();
     }

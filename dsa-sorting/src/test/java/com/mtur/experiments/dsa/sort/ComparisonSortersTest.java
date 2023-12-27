@@ -13,19 +13,22 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 @Slf4j
 public class ComparisonSortersTest {
-    final int COUNT = 200_000;
+    final int COUNT = 300_000;
     @Test
     void testCompareSlowSorters() {
         int[] ints = DataGenerator.generateUnsortedArray(COUNT);
 
         int[] isRes = sort("Insertion sort", ints, new InsertionSorter());
+        List<Integer> alSsRes = sort("AL Selection sort", ints, new ArrayListSelectionSorter());
         int[] ssRes = sort("Selection sort", ints, new SelectionSorter());
-        List<Integer> alSsRes = sort("Selection sort", ints, new ArrayListSelectionSorter());
+        List<Integer> sAlSsRes = sort("Slow AL Selection sort", ints, new SlowArrayListSelectionSorter());
+
         int[] etalonRes = etalonSort(ints);
 
         assertArrayEquals(etalonRes, isRes);
         assertArrayEquals(etalonRes, ssRes);
         assertArrayEquals(etalonRes, listToArray(alSsRes));
+        assertArrayEquals(etalonRes, listToArray(sAlSsRes));
     }
 
     private int[] etalonSort(int[] data) {
