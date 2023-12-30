@@ -32,15 +32,6 @@ public class QuickSorter implements Sorter {
 
     // returns index of pivot after partitioning
     protected int partition(int[] data, int start, int end) {
-        int length = end - start;
-        if (length <= 0) {
-            return -1;
-        }
-
-        if (length == 1) {
-            return 0;
-        }
-
         // select pivot:
         int pivotIndex = end - 1;
         int pivot = data[pivotIndex];
