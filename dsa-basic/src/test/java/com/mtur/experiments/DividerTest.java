@@ -3,6 +3,8 @@ package com.mtur.experiments;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
+import java.util.*;
+
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Integer.MIN_VALUE;
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,6 +18,20 @@ class DividerTest {
         assertEquals(3, divider.divide(6, 2));
         assertEquals(61, divider.divide(734, 12));
         assertEquals(1024, divider.divide(1024, 1));
+    }
+
+    @Test
+    void name() {
+
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, null);
+        log.info("{}, {}", map.get(1), map.containsKey(1));
+
+
+        int n = 8;
+        int sum = n * (1 + n) / 2;
+        int sum2 = (n - 1) * (n) / 2;
+        log.info("{}, {}", sum, sum2);
     }
 
     @Test

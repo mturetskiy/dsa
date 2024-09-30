@@ -20,6 +20,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.mtur.experiments</groupId>
+            <artifactId>dsa-basic</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>

@@ -1,0 +1,1077 @@
+0101110011011111101101100010100101111110000100011101001111100111100101100000010101100110111101100011
+
+
+01011100110111111011011000101001011111100001000111010011111001111001 01100000010101100110111101100011
+
+
+!! windowSize: 88, shifts: 12
+Shift: 0, windowSize: 88
+Calc for leftRemove: 0, rightRemove: 12
+Right deltas for rigthRem: 12 not found. Prev not found for: 11, and for 10
+Calc: after RIGHT cut: 0=44, 1=54
+Shift: 1, windowSize: 88
+Calc for leftRemove: 1, rightRemove: 11
+Right deltas for rigthRem: 11 not found. Prev not found for: 10, and for 9
+Calc: after RIGHT cut: 0=43, 1=54
+Shift: 2, windowSize: 88
+Calc for leftRemove: 2, rightRemove: 10
+Right deltas for rigthRem: 10 not found. Prev not found for: 9, and for 8
+Calc: after RIGHT cut: 0=43, 1=53
+Shift: 3, windowSize: 88
+Calc for leftRemove: 3, rightRemove: 9
+Right deltas for rigthRem: 9 not found. Prev not found for: 8, and for 7
+Calc: after RIGHT cut: 0=41, 1=54
+Shift: 4, windowSize: 88
+Calc for leftRemove: 4, rightRemove: 8
+Right deltas for rigthRem: 8 not found. Prev not found for: 7, and for 6
+Calc: after RIGHT cut: 0=41, 1=53
+Shift: 5, windowSize: 88
+Calc for leftRemove: 5, rightRemove: 7
+Right deltas for rigthRem: 7 not found. Prev not found for: 6, and for 5
+Calc: after RIGHT cut: 0=42, 1=51
+Shift: 6, windowSize: 88
+Calc for leftRemove: 6, rightRemove: 6
+Right deltas for rigthRem: 6 not found. Prev not found for: 5, and for 4
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 7, windowSize: 88
+Calc for leftRemove: 7, rightRemove: 5
+Right deltas for rigthRem: 5 not found. Prev not found for: 4, and for 3
+Calc: after RIGHT cut: 0=39, 1=52
+Shift: 8, windowSize: 88
+Calc for leftRemove: 8, rightRemove: 4
+Right deltas for rigthRem: 4 not found. Prev not found for: 3, and for 2
+Calc: after RIGHT cut: 0=38, 1=52
+Shift: 9, windowSize: 88
+Calc for leftRemove: 9, rightRemove: 3
+Right deltas for rigthRem: 3 not found. Prev not found for: 2, and for 1
+Calc: after RIGHT cut: 0=39, 1=50
+Shift: 10, windowSize: 88
+Calc for leftRemove: 10, rightRemove: 2
+Calc: after RIGHT cut: 0=40, 1=48
+Shift: 11, windowSize: 88
+Calc for leftRemove: 11, rightRemove: 1
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 12, windowSize: 88
+Calc for leftRemove: 12, rightRemove: 0
+Nothing found for windowSize: 88, decreasing.
+!! windowSize: 86, shifts: 14
+Shift: 0, windowSize: 86
+Calc for leftRemove: 0, rightRemove: 14
+Calc: after RIGHT cut: 0=43, 1=53
+Shift: 1, windowSize: 86
+Calc for leftRemove: 1, rightRemove: 13
+Calc: after RIGHT cut: 0=42, 1=54
+Shift: 2, windowSize: 86
+Calc for leftRemove: 2, rightRemove: 12
+Calc: after RIGHT cut: 0=43, 1=53
+Shift: 3, windowSize: 86
+Calc for leftRemove: 3, rightRemove: 11
+Calc: after RIGHT cut: 0=42, 1=53
+Shift: 4, windowSize: 86
+Calc for leftRemove: 4, rightRemove: 10
+Calc: after RIGHT cut: 0=42, 1=52
+Shift: 5, windowSize: 86
+Calc for leftRemove: 5, rightRemove: 9
+Calc: after RIGHT cut: 0=41, 1=52
+Shift: 6, windowSize: 86
+Calc for leftRemove: 6, rightRemove: 8
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 7, windowSize: 86
+Calc for leftRemove: 7, rightRemove: 7
+Calc: after RIGHT cut: 0=41, 1=50
+Shift: 8, windowSize: 86
+Calc for leftRemove: 8, rightRemove: 6
+Calc: after RIGHT cut: 0=39, 1=51
+Shift: 9, windowSize: 86
+Calc for leftRemove: 9, rightRemove: 5
+Calc: after RIGHT cut: 0=38, 1=51
+Shift: 10, windowSize: 86
+Calc for leftRemove: 10, rightRemove: 4
+Calc: after RIGHT cut: 0=38, 1=50
+Shift: 11, windowSize: 86
+Calc for leftRemove: 11, rightRemove: 3
+Calc: after RIGHT cut: 0=38, 1=49
+Shift: 12, windowSize: 86
+Calc for leftRemove: 12, rightRemove: 2
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 13, windowSize: 86
+Calc for leftRemove: 13, rightRemove: 1
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 14, windowSize: 86
+Calc for leftRemove: 14, rightRemove: 0
+Nothing found for windowSize: 86, decreasing.
+!! windowSize: 84, shifts: 16
+Shift: 0, windowSize: 84
+Calc for leftRemove: 0, rightRemove: 16
+Calc: after RIGHT cut: 0=42, 1=52
+Shift: 1, windowSize: 84
+Calc for leftRemove: 1, rightRemove: 15
+Calc: after RIGHT cut: 0=42, 1=52
+Shift: 2, windowSize: 84
+Calc for leftRemove: 2, rightRemove: 14
+Calc: after RIGHT cut: 0=42, 1=52
+Shift: 3, windowSize: 84
+Calc for leftRemove: 3, rightRemove: 13
+Calc: after RIGHT cut: 0=41, 1=53
+Shift: 4, windowSize: 84
+Calc for leftRemove: 4, rightRemove: 12
+Calc: after RIGHT cut: 0=42, 1=52
+Shift: 5, windowSize: 84
+Calc for leftRemove: 5, rightRemove: 11
+Calc: after RIGHT cut: 0=42, 1=51
+Shift: 6, windowSize: 84
+Calc for leftRemove: 6, rightRemove: 10
+Calc: after RIGHT cut: 0=42, 1=50
+Shift: 7, windowSize: 84
+Calc for leftRemove: 7, rightRemove: 9
+Calc: after RIGHT cut: 0=40, 1=51
+Shift: 8, windowSize: 84
+Calc for leftRemove: 8, rightRemove: 8
+Calc: after RIGHT cut: 0=39, 1=51
+Shift: 9, windowSize: 84
+Calc for leftRemove: 9, rightRemove: 7
+Calc: after RIGHT cut: 0=40, 1=49
+Shift: 10, windowSize: 84
+Calc for leftRemove: 10, rightRemove: 6
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 11, windowSize: 84
+Calc for leftRemove: 11, rightRemove: 5
+Calc: after RIGHT cut: 0=37, 1=50
+Shift: 12, windowSize: 84
+Calc for leftRemove: 12, rightRemove: 4
+Calc: after RIGHT cut: 0=37, 1=49
+Shift: 13, windowSize: 84
+Calc for leftRemove: 13, rightRemove: 3
+Calc: after RIGHT cut: 0=38, 1=47
+Shift: 14, windowSize: 84
+Calc for leftRemove: 14, rightRemove: 2
+Calc: after RIGHT cut: 0=39, 1=45
+Shift: 15, windowSize: 84
+Calc for leftRemove: 15, rightRemove: 1
+Calc: after RIGHT cut: 0=39, 1=45
+Shift: 16, windowSize: 84
+Calc for leftRemove: 16, rightRemove: 0
+Nothing found for windowSize: 84, decreasing.
+!! windowSize: 82, shifts: 18
+Shift: 0, windowSize: 82
+Calc for leftRemove: 0, rightRemove: 18
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 1, windowSize: 82
+Calc for leftRemove: 1, rightRemove: 17
+Calc: after RIGHT cut: 0=40, 1=52
+Shift: 2, windowSize: 82
+Calc for leftRemove: 2, rightRemove: 16
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 3, windowSize: 82
+Calc for leftRemove: 3, rightRemove: 15
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 4, windowSize: 82
+Calc for leftRemove: 4, rightRemove: 14
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 5, windowSize: 82
+Calc for leftRemove: 5, rightRemove: 13
+Calc: after RIGHT cut: 0=41, 1=51
+Shift: 6, windowSize: 82
+Calc for leftRemove: 6, rightRemove: 12
+Calc: after RIGHT cut: 0=42, 1=50
+Shift: 7, windowSize: 82
+Calc for leftRemove: 7, rightRemove: 11
+Calc: after RIGHT cut: 0=41, 1=50
+Shift: 8, windowSize: 82
+Calc for leftRemove: 8, rightRemove: 10
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 9, windowSize: 82
+Calc for leftRemove: 9, rightRemove: 9
+Calc: after RIGHT cut: 0=39, 1=50
+Shift: 10, windowSize: 82
+Calc for leftRemove: 10, rightRemove: 8
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 11, windowSize: 82
+Calc for leftRemove: 11, rightRemove: 7
+Calc: after RIGHT cut: 0=39, 1=48
+Shift: 12, windowSize: 82
+Calc for leftRemove: 12, rightRemove: 6
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 13, windowSize: 82
+Calc for leftRemove: 13, rightRemove: 5
+Calc: after RIGHT cut: 0=37, 1=48
+Shift: 14, windowSize: 82
+Calc for leftRemove: 14, rightRemove: 4
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 15, windowSize: 82
+Calc for leftRemove: 15, rightRemove: 3
+Calc: after RIGHT cut: 0=38, 1=45
+Shift: 16, windowSize: 82
+Calc for leftRemove: 16, rightRemove: 2
+Calc: after RIGHT cut: 0=39, 1=43
+Shift: 17, windowSize: 82
+Calc for leftRemove: 17, rightRemove: 1
+Calc: after RIGHT cut: 0=39, 1=43
+Shift: 18, windowSize: 82
+Calc for leftRemove: 18, rightRemove: 0
+Nothing found for windowSize: 82, decreasing.
+!! windowSize: 80, shifts: 20
+Shift: 0, windowSize: 80
+Calc for leftRemove: 0, rightRemove: 20
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 1, windowSize: 80
+Calc for leftRemove: 1, rightRemove: 19
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 2, windowSize: 80
+Calc for leftRemove: 2, rightRemove: 18
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 3, windowSize: 80
+Calc for leftRemove: 3, rightRemove: 17
+Calc: after RIGHT cut: 0=39, 1=51
+Shift: 4, windowSize: 80
+Calc for leftRemove: 4, rightRemove: 16
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 5, windowSize: 80
+Calc for leftRemove: 5, rightRemove: 15
+Calc: after RIGHT cut: 0=41, 1=49
+Shift: 6, windowSize: 80
+Calc for leftRemove: 6, rightRemove: 14
+Calc: after RIGHT cut: 0=41, 1=49
+Shift: 7, windowSize: 80
+Calc for leftRemove: 7, rightRemove: 13
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 8, windowSize: 80
+Calc for leftRemove: 8, rightRemove: 12
+Calc: after RIGHT cut: 0=40, 1=50
+Shift: 9, windowSize: 80
+Calc for leftRemove: 9, rightRemove: 11
+Calc: after RIGHT cut: 0=40, 1=49
+Shift: 10, windowSize: 80
+Calc for leftRemove: 10, rightRemove: 10
+Calc: after RIGHT cut: 0=40, 1=48
+Shift: 11, windowSize: 80
+Calc for leftRemove: 11, rightRemove: 9
+Calc: after RIGHT cut: 0=38, 1=49
+Shift: 12, windowSize: 80
+Calc for leftRemove: 12, rightRemove: 8
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 13, windowSize: 80
+Calc for leftRemove: 13, rightRemove: 7
+Calc: after RIGHT cut: 0=39, 1=46
+Shift: 14, windowSize: 80
+Calc for leftRemove: 14, rightRemove: 6
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 15, windowSize: 80
+Calc for leftRemove: 15, rightRemove: 5
+Calc: after RIGHT cut: 0=37, 1=46
+Shift: 16, windowSize: 80
+Calc for leftRemove: 16, rightRemove: 4
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 17, windowSize: 80
+Calc for leftRemove: 17, rightRemove: 3
+Calc: after RIGHT cut: 0=38, 1=43
+Shift: 18, windowSize: 80
+Calc for leftRemove: 18, rightRemove: 2
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 19, windowSize: 80
+Calc for leftRemove: 19, rightRemove: 1
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 20, windowSize: 80
+Calc for leftRemove: 20, rightRemove: 0
+Nothing found for windowSize: 80, decreasing.
+!! windowSize: 78, shifts: 22
+Shift: 0, windowSize: 78
+Calc for leftRemove: 0, rightRemove: 22
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 1, windowSize: 78
+Calc for leftRemove: 1, rightRemove: 21
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 2, windowSize: 78
+Calc for leftRemove: 2, rightRemove: 20
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 3, windowSize: 78
+Calc for leftRemove: 3, rightRemove: 19
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 4, windowSize: 78
+Calc for leftRemove: 4, rightRemove: 18
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 5, windowSize: 78
+Calc for leftRemove: 5, rightRemove: 17
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 6, windowSize: 78
+Calc for leftRemove: 6, rightRemove: 16
+Calc: after RIGHT cut: 0=40, 1=48
+Shift: 7, windowSize: 78
+Calc for leftRemove: 7, rightRemove: 15
+Calc: after RIGHT cut: 0=40, 1=48
+Shift: 8, windowSize: 78
+Calc for leftRemove: 8, rightRemove: 14
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 9, windowSize: 78
+Calc for leftRemove: 9, rightRemove: 13
+Calc: after RIGHT cut: 0=39, 1=49
+Shift: 10, windowSize: 78
+Calc for leftRemove: 10, rightRemove: 12
+Calc: after RIGHT cut: 0=40, 1=48
+Shift: 11, windowSize: 78
+Calc for leftRemove: 11, rightRemove: 11
+Calc: after RIGHT cut: 0=39, 1=48
+Shift: 12, windowSize: 78
+Calc for leftRemove: 12, rightRemove: 10
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 13, windowSize: 78
+Calc for leftRemove: 13, rightRemove: 9
+Calc: after RIGHT cut: 0=38, 1=47
+Shift: 14, windowSize: 78
+Calc for leftRemove: 14, rightRemove: 8
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 15, windowSize: 78
+Calc for leftRemove: 15, rightRemove: 7
+Calc: after RIGHT cut: 0=39, 1=44
+Shift: 16, windowSize: 78
+Calc for leftRemove: 16, rightRemove: 6
+Calc: after RIGHT cut: 0=38, 1=44
+Shift: 17, windowSize: 78
+Calc for leftRemove: 17, rightRemove: 5
+Calc: after RIGHT cut: 0=37, 1=44
+Shift: 18, windowSize: 78
+Calc for leftRemove: 18, rightRemove: 4
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 19, windowSize: 78
+Calc for leftRemove: 19, rightRemove: 3
+Calc: after RIGHT cut: 0=37, 1=42
+Shift: 20, windowSize: 78
+Calc for leftRemove: 20, rightRemove: 2
+Calc: after RIGHT cut: 0=38, 1=40
+Shift: 21, windowSize: 78
+Calc for leftRemove: 21, rightRemove: 1
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 22, windowSize: 78
+Calc for leftRemove: 22, rightRemove: 0
+Nothing found for windowSize: 78, decreasing.
+!! windowSize: 76, shifts: 24
+Shift: 0, windowSize: 76
+Calc for leftRemove: 0, rightRemove: 24
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 1, windowSize: 76
+Calc for leftRemove: 1, rightRemove: 23
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 2, windowSize: 76
+Calc for leftRemove: 2, rightRemove: 22
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 3, windowSize: 76
+Calc for leftRemove: 3, rightRemove: 21
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 4, windowSize: 76
+Calc for leftRemove: 4, rightRemove: 20
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 5, windowSize: 76
+Calc for leftRemove: 5, rightRemove: 19
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 6, windowSize: 76
+Calc for leftRemove: 6, rightRemove: 18
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 7, windowSize: 76
+Calc for leftRemove: 7, rightRemove: 17
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 8, windowSize: 76
+Calc for leftRemove: 8, rightRemove: 16
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 9, windowSize: 76
+Calc for leftRemove: 9, rightRemove: 15
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 10, windowSize: 76
+Calc for leftRemove: 10, rightRemove: 14
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 11, windowSize: 76
+Calc for leftRemove: 11, rightRemove: 13
+Calc: after RIGHT cut: 0=38, 1=48
+Shift: 12, windowSize: 76
+Calc for leftRemove: 12, rightRemove: 12
+Calc: after RIGHT cut: 0=39, 1=47
+Shift: 13, windowSize: 76
+Calc for leftRemove: 13, rightRemove: 11
+Calc: after RIGHT cut: 0=39, 1=46
+Shift: 14, windowSize: 76
+Calc for leftRemove: 14, rightRemove: 10
+Calc: after RIGHT cut: 0=39, 1=45
+Shift: 15, windowSize: 76
+Calc for leftRemove: 15, rightRemove: 9
+Calc: after RIGHT cut: 0=38, 1=45
+Shift: 16, windowSize: 76
+Calc for leftRemove: 16, rightRemove: 8
+Calc: after RIGHT cut: 0=38, 1=44
+Shift: 17, windowSize: 76
+Calc for leftRemove: 17, rightRemove: 7
+Calc: after RIGHT cut: 0=39, 1=42
+Shift: 18, windowSize: 76
+Calc for leftRemove: 18, rightRemove: 6
+Calc: after RIGHT cut: 0=37, 1=43
+Shift: 19, windowSize: 76
+Calc for leftRemove: 19, rightRemove: 5
+Calc: after RIGHT cut: 0=36, 1=43
+Shift: 20, windowSize: 76
+Calc for leftRemove: 20, rightRemove: 4
+Calc: after RIGHT cut: 0=36, 1=42
+Shift: 21, windowSize: 76
+Calc for leftRemove: 21, rightRemove: 3
+Calc: after RIGHT cut: 0=36, 1=41
+Shift: 22, windowSize: 76
+Calc for leftRemove: 22, rightRemove: 2
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 23, windowSize: 76
+Calc for leftRemove: 23, rightRemove: 1
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 24, windowSize: 76
+Calc for leftRemove: 24, rightRemove: 0
+Nothing found for windowSize: 76, decreasing.
+!! windowSize: 74, shifts: 26
+Shift: 0, windowSize: 74
+Calc for leftRemove: 0, rightRemove: 26
+Calc: after RIGHT cut: 0=36, 1=48
+Shift: 1, windowSize: 74
+Calc for leftRemove: 1, rightRemove: 25
+Calc: after RIGHT cut: 0=36, 1=48
+Shift: 2, windowSize: 74
+Calc for leftRemove: 2, rightRemove: 24
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 3, windowSize: 74
+Calc for leftRemove: 3, rightRemove: 23
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 4, windowSize: 74
+Calc for leftRemove: 4, rightRemove: 22
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 5, windowSize: 74
+Calc for leftRemove: 5, rightRemove: 21
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 6, windowSize: 74
+Calc for leftRemove: 6, rightRemove: 20
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 7, windowSize: 74
+Calc for leftRemove: 7, rightRemove: 19
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 8, windowSize: 74
+Calc for leftRemove: 8, rightRemove: 18
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 9, windowSize: 74
+Calc for leftRemove: 9, rightRemove: 17
+Calc: after RIGHT cut: 0=37, 1=47
+Shift: 10, windowSize: 74
+Calc for leftRemove: 10, rightRemove: 16
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 11, windowSize: 74
+Calc for leftRemove: 11, rightRemove: 15
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 12, windowSize: 74
+Calc for leftRemove: 12, rightRemove: 14
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 13, windowSize: 74
+Calc for leftRemove: 13, rightRemove: 13
+Calc: after RIGHT cut: 0=38, 1=46
+Shift: 14, windowSize: 74
+Calc for leftRemove: 14, rightRemove: 12
+Calc: after RIGHT cut: 0=39, 1=45
+Shift: 15, windowSize: 74
+Calc for leftRemove: 15, rightRemove: 11
+Calc: after RIGHT cut: 0=39, 1=44
+Shift: 16, windowSize: 74
+Calc for leftRemove: 16, rightRemove: 10
+Calc: after RIGHT cut: 0=39, 1=43
+Shift: 17, windowSize: 74
+Calc for leftRemove: 17, rightRemove: 9
+Calc: after RIGHT cut: 0=38, 1=43
+Shift: 18, windowSize: 74
+Calc for leftRemove: 18, rightRemove: 8
+Calc: after RIGHT cut: 0=37, 1=43
+Shift: 19, windowSize: 74
+Calc for leftRemove: 19, rightRemove: 7
+Calc: after RIGHT cut: 0=38, 1=41
+Shift: 20, windowSize: 74
+Calc for leftRemove: 20, rightRemove: 6
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 21, windowSize: 74
+Calc for leftRemove: 21, rightRemove: 5
+Calc: after RIGHT cut: 0=35, 1=42
+Shift: 22, windowSize: 74
+Calc for leftRemove: 22, rightRemove: 4
+Calc: after RIGHT cut: 0=35, 1=41
+Shift: 23, windowSize: 74
+Calc for leftRemove: 23, rightRemove: 3
+Calc: after RIGHT cut: 0=36, 1=39
+Shift: 24, windowSize: 74
+Calc for leftRemove: 24, rightRemove: 2
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 25, windowSize: 74
+Calc for leftRemove: 25, rightRemove: 1
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 26, windowSize: 74
+Calc for leftRemove: 26, rightRemove: 0
+Nothing found for windowSize: 74, decreasing.
+!! windowSize: 72, shifts: 28
+Shift: 0, windowSize: 72
+Calc for leftRemove: 0, rightRemove: 28
+Calc: after RIGHT cut: 0=34, 1=48
+Shift: 1, windowSize: 72
+Calc for leftRemove: 1, rightRemove: 27
+Calc: after RIGHT cut: 0=34, 1=48
+Shift: 2, windowSize: 72
+Calc for leftRemove: 2, rightRemove: 26
+Calc: after RIGHT cut: 0=35, 1=47
+Shift: 3, windowSize: 72
+Calc for leftRemove: 3, rightRemove: 25
+Calc: after RIGHT cut: 0=35, 1=47
+Shift: 4, windowSize: 72
+Calc for leftRemove: 4, rightRemove: 24
+Calc: after RIGHT cut: 0=36, 1=46
+Shift: 5, windowSize: 72
+Calc for leftRemove: 5, rightRemove: 23
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 6, windowSize: 72
+Calc for leftRemove: 6, rightRemove: 22
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 7, windowSize: 72
+Calc for leftRemove: 7, rightRemove: 21
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 8, windowSize: 72
+Calc for leftRemove: 8, rightRemove: 20
+Calc: after RIGHT cut: 0=36, 1=46
+Shift: 9, windowSize: 72
+Calc for leftRemove: 9, rightRemove: 19
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 10, windowSize: 72
+Calc for leftRemove: 10, rightRemove: 18
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 11, windowSize: 72
+Calc for leftRemove: 11, rightRemove: 17
+Calc: after RIGHT cut: 0=36, 1=46
+Shift: 12, windowSize: 72
+Calc for leftRemove: 12, rightRemove: 16
+Calc: after RIGHT cut: 0=37, 1=45
+Shift: 13, windowSize: 72
+Calc for leftRemove: 13, rightRemove: 15
+Calc: after RIGHT cut: 0=38, 1=44
+Shift: 14, windowSize: 72
+Calc for leftRemove: 14, rightRemove: 14
+Calc: after RIGHT cut: 0=38, 1=44
+Shift: 15, windowSize: 72
+Calc for leftRemove: 15, rightRemove: 13
+Calc: after RIGHT cut: 0=38, 1=44
+Shift: 16, windowSize: 72
+Calc for leftRemove: 16, rightRemove: 12
+Calc: after RIGHT cut: 0=39, 1=43
+Shift: 17, windowSize: 72
+Calc for leftRemove: 17, rightRemove: 11
+Calc: after RIGHT cut: 0=39, 1=42
+Shift: 18, windowSize: 72
+Calc for leftRemove: 18, rightRemove: 10
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 19, windowSize: 72
+Calc for leftRemove: 19, rightRemove: 9
+Calc: after RIGHT cut: 0=37, 1=42
+Shift: 20, windowSize: 72
+Calc for leftRemove: 20, rightRemove: 8
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 21, windowSize: 72
+Calc for leftRemove: 21, rightRemove: 7
+Calc: after RIGHT cut: 0=37, 1=40
+Shift: 22, windowSize: 72
+Calc for leftRemove: 22, rightRemove: 6
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 23, windowSize: 72
+Calc for leftRemove: 23, rightRemove: 5
+Calc: after RIGHT cut: 0=35, 1=40
+Shift: 24, windowSize: 72
+Calc for leftRemove: 24, rightRemove: 4
+Calc: after RIGHT cut: 0=34, 1=40
+Shift: 25, windowSize: 72
+Calc for leftRemove: 25, rightRemove: 3
+Calc: after RIGHT cut: 0=34, 1=39
+Shift: 26, windowSize: 72
+Calc for leftRemove: 26, rightRemove: 2
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 27, windowSize: 72
+Calc for leftRemove: 27, rightRemove: 1
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 28, windowSize: 72
+Calc for leftRemove: 28, rightRemove: 0
+Nothing found for windowSize: 72, decreasing.
+!! windowSize: 70, shifts: 30
+Shift: 0, windowSize: 70
+Calc for leftRemove: 0, rightRemove: 30
+Calc: after RIGHT cut: 0=33, 1=47
+Shift: 1, windowSize: 70
+Calc for leftRemove: 1, rightRemove: 29
+Calc: after RIGHT cut: 0=32, 1=48
+Shift: 2, windowSize: 70
+Calc for leftRemove: 2, rightRemove: 28
+Calc: after RIGHT cut: 0=33, 1=47
+Shift: 3, windowSize: 70
+Calc for leftRemove: 3, rightRemove: 27
+Calc: after RIGHT cut: 0=33, 1=47
+Shift: 4, windowSize: 70
+Calc for leftRemove: 4, rightRemove: 26
+Calc: after RIGHT cut: 0=34, 1=46
+Shift: 5, windowSize: 70
+Calc for leftRemove: 5, rightRemove: 25
+Calc: after RIGHT cut: 0=35, 1=45
+Shift: 6, windowSize: 70
+Calc for leftRemove: 6, rightRemove: 24
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 7, windowSize: 70
+Calc for leftRemove: 7, rightRemove: 23
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 8, windowSize: 70
+Calc for leftRemove: 8, rightRemove: 22
+Calc: after RIGHT cut: 0=35, 1=45
+Shift: 9, windowSize: 70
+Calc for leftRemove: 9, rightRemove: 21
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 10, windowSize: 70
+Calc for leftRemove: 10, rightRemove: 20
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 11, windowSize: 70
+Calc for leftRemove: 11, rightRemove: 19
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 12, windowSize: 70
+Calc for leftRemove: 12, rightRemove: 18
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 13, windowSize: 70
+Calc for leftRemove: 13, rightRemove: 17
+Calc: after RIGHT cut: 0=36, 1=44
+Shift: 14, windowSize: 70
+Calc for leftRemove: 14, rightRemove: 16
+Calc: after RIGHT cut: 0=37, 1=43
+Shift: 15, windowSize: 70
+Calc for leftRemove: 15, rightRemove: 15
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 16, windowSize: 70
+Calc for leftRemove: 16, rightRemove: 14
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 17, windowSize: 70
+Calc for leftRemove: 17, rightRemove: 13
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 18, windowSize: 70
+Calc for leftRemove: 18, rightRemove: 12
+Calc: after RIGHT cut: 0=38, 1=42
+Shift: 19, windowSize: 70
+Calc for leftRemove: 19, rightRemove: 11
+Calc: after RIGHT cut: 0=38, 1=41
+Shift: 20, windowSize: 70
+Calc for leftRemove: 20, rightRemove: 10
+Calc: after RIGHT cut: 0=38, 1=40
+Shift: 21, windowSize: 70
+Calc for leftRemove: 21, rightRemove: 9
+Calc: after RIGHT cut: 0=36, 1=41
+Shift: 22, windowSize: 70
+Calc for leftRemove: 22, rightRemove: 8
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 23, windowSize: 70
+Calc for leftRemove: 23, rightRemove: 7
+Calc: after RIGHT cut: 0=37, 1=38
+Shift: 24, windowSize: 70
+Calc for leftRemove: 24, rightRemove: 6
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 25, windowSize: 70
+Calc for leftRemove: 25, rightRemove: 5
+Calc: after RIGHT cut: 0=33, 1=40
+Shift: 26, windowSize: 70
+Calc for leftRemove: 26, rightRemove: 4
+Calc: after RIGHT cut: 0=32, 1=40
+Shift: 27, windowSize: 70
+Calc for leftRemove: 27, rightRemove: 3
+Calc: after RIGHT cut: 0=33, 1=38
+Shift: 28, windowSize: 70
+Calc for leftRemove: 28, rightRemove: 2
+Calc: after RIGHT cut: 0=33, 1=37
+Shift: 29, windowSize: 70
+Calc for leftRemove: 29, rightRemove: 1
+Calc: after RIGHT cut: 0=33, 1=37
+Shift: 30, windowSize: 70
+Calc for leftRemove: 30, rightRemove: 0
+Nothing found for windowSize: 70, decreasing.
+!! windowSize: 68, shifts: 32
+Shift: 0, windowSize: 68
+Calc for leftRemove: 0, rightRemove: 32
+Calc: after RIGHT cut: 0=32, 1=46
+Shift: 1, windowSize: 68
+Calc for leftRemove: 1, rightRemove: 31
+Calc: after RIGHT cut: 0=32, 1=46
+Shift: 2, windowSize: 68
+Calc for leftRemove: 2, rightRemove: 30
+Calc: after RIGHT cut: 0=32, 1=46
+Shift: 3, windowSize: 68
+Calc for leftRemove: 3, rightRemove: 29
+Calc: after RIGHT cut: 0=31, 1=47
+Shift: 4, windowSize: 68
+Calc for leftRemove: 4, rightRemove: 28
+Calc: after RIGHT cut: 0=32, 1=46
+Shift: 5, windowSize: 68
+Calc for leftRemove: 5, rightRemove: 27
+Calc: after RIGHT cut: 0=33, 1=45
+Shift: 6, windowSize: 68
+Calc for leftRemove: 6, rightRemove: 26
+Calc: after RIGHT cut: 0=34, 1=44
+Shift: 7, windowSize: 68
+Calc for leftRemove: 7, rightRemove: 25
+Calc: after RIGHT cut: 0=34, 1=44
+Shift: 8, windowSize: 68
+Calc for leftRemove: 8, rightRemove: 24
+Calc: after RIGHT cut: 0=34, 1=44
+Shift: 9, windowSize: 68
+Calc for leftRemove: 9, rightRemove: 23
+Calc: after RIGHT cut: 0=35, 1=43
+Shift: 10, windowSize: 68
+Calc for leftRemove: 10, rightRemove: 22
+Calc: after RIGHT cut: 0=35, 1=43
+Shift: 11, windowSize: 68
+Calc for leftRemove: 11, rightRemove: 21
+Calc: after RIGHT cut: 0=35, 1=43
+Shift: 12, windowSize: 68
+Calc for leftRemove: 12, rightRemove: 20
+Calc: after RIGHT cut: 0=35, 1=43
+Shift: 13, windowSize: 68
+Calc for leftRemove: 13, rightRemove: 19
+Calc: after RIGHT cut: 0=36, 1=42
+Shift: 14, windowSize: 68
+Calc for leftRemove: 14, rightRemove: 18
+Calc: after RIGHT cut: 0=36, 1=42
+Shift: 15, windowSize: 68
+Calc for leftRemove: 15, rightRemove: 17
+Calc: after RIGHT cut: 0=36, 1=42
+Shift: 16, windowSize: 68
+Calc for leftRemove: 16, rightRemove: 16
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 17, windowSize: 68
+Calc for leftRemove: 17, rightRemove: 15
+Calc: after RIGHT cut: 0=38, 1=40
+Shift: 18, windowSize: 68
+Calc for leftRemove: 18, rightRemove: 14
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 19, windowSize: 68
+Calc for leftRemove: 19, rightRemove: 13
+Calc: after RIGHT cut: 0=37, 1=41
+Shift: 20, windowSize: 68
+Calc for leftRemove: 20, rightRemove: 12
+Calc: after RIGHT cut: 0=38, 1=40
+Shift: 21, windowSize: 68
+Calc for leftRemove: 21, rightRemove: 11
+Calc: after RIGHT cut: 0=37, 1=40
+Shift: 22, windowSize: 68
+Calc for leftRemove: 22, rightRemove: 10
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 23, windowSize: 68
+Calc for leftRemove: 23, rightRemove: 9
+Calc: after RIGHT cut: 0=36, 1=39
+Shift: 24, windowSize: 68
+Calc for leftRemove: 24, rightRemove: 8
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 25, windowSize: 68
+Calc for leftRemove: 25, rightRemove: 7
+Calc: after RIGHT cut: 0=35, 1=38
+Shift: 26, windowSize: 68
+Calc for leftRemove: 26, rightRemove: 6
+Calc: after RIGHT cut: 0=33, 1=39
+Shift: 27, windowSize: 68
+Calc for leftRemove: 27, rightRemove: 5
+Calc: after RIGHT cut: 0=32, 1=39
+Shift: 28, windowSize: 68
+Calc for leftRemove: 28, rightRemove: 4
+Calc: after RIGHT cut: 0=31, 1=39
+Shift: 29, windowSize: 68
+Calc for leftRemove: 29, rightRemove: 3
+Calc: after RIGHT cut: 0=32, 1=37
+Shift: 30, windowSize: 68
+Calc for leftRemove: 30, rightRemove: 2
+Calc: after RIGHT cut: 0=32, 1=36
+Shift: 31, windowSize: 68
+Calc for leftRemove: 31, rightRemove: 1
+Calc: after RIGHT cut: 0=31, 1=37
+Shift: 32, windowSize: 68
+Calc for leftRemove: 32, rightRemove: 0
+Nothing found for windowSize: 68, decreasing.
+!! windowSize: 66, shifts: 34
+Shift: 0, windowSize: 66
+Calc for leftRemove: 0, rightRemove: 34
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 1, windowSize: 66
+Calc for leftRemove: 1, rightRemove: 33
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 2, windowSize: 66
+Calc for leftRemove: 2, rightRemove: 32
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 3, windowSize: 66
+Calc for leftRemove: 3, rightRemove: 31
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 4, windowSize: 66
+Calc for leftRemove: 4, rightRemove: 30
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 5, windowSize: 66
+Calc for leftRemove: 5, rightRemove: 29
+Calc: after RIGHT cut: 0=31, 1=45
+Shift: 6, windowSize: 66
+Calc for leftRemove: 6, rightRemove: 28
+Calc: after RIGHT cut: 0=32, 1=44
+Shift: 7, windowSize: 66
+Calc for leftRemove: 7, rightRemove: 27
+Calc: after RIGHT cut: 0=32, 1=44
+Shift: 8, windowSize: 66
+Calc for leftRemove: 8, rightRemove: 26
+Calc: after RIGHT cut: 0=32, 1=44
+Shift: 9, windowSize: 66
+Calc for leftRemove: 9, rightRemove: 25
+Calc: after RIGHT cut: 0=33, 1=43
+Shift: 10, windowSize: 66
+Calc for leftRemove: 10, rightRemove: 24
+Calc: after RIGHT cut: 0=34, 1=42
+Shift: 11, windowSize: 66
+Calc for leftRemove: 11, rightRemove: 23
+Calc: after RIGHT cut: 0=34, 1=42
+Shift: 12, windowSize: 66
+Calc for leftRemove: 12, rightRemove: 22
+Calc: after RIGHT cut: 0=34, 1=42
+Shift: 13, windowSize: 66
+Calc for leftRemove: 13, rightRemove: 21
+Calc: after RIGHT cut: 0=35, 1=41
+Shift: 14, windowSize: 66
+Calc for leftRemove: 14, rightRemove: 20
+Calc: after RIGHT cut: 0=35, 1=41
+Shift: 15, windowSize: 66
+Calc for leftRemove: 15, rightRemove: 19
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 16, windowSize: 66
+Calc for leftRemove: 16, rightRemove: 18
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 17, windowSize: 66
+Calc for leftRemove: 17, rightRemove: 17
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 18, windowSize: 66
+Calc for leftRemove: 18, rightRemove: 16
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 19, windowSize: 66
+Calc for leftRemove: 19, rightRemove: 15
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 20, windowSize: 66
+Calc for leftRemove: 20, rightRemove: 14
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 21, windowSize: 66
+Calc for leftRemove: 21, rightRemove: 13
+Calc: after RIGHT cut: 0=36, 1=40
+Shift: 22, windowSize: 66
+Calc for leftRemove: 22, rightRemove: 12
+Calc: after RIGHT cut: 0=37, 1=39
+Shift: 23, windowSize: 66
+Calc for leftRemove: 23, rightRemove: 11
+Calc: after RIGHT cut: 0=37, 1=38
+Shift: 24, windowSize: 66
+Calc for leftRemove: 24, rightRemove: 10
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 25, windowSize: 66
+Calc for leftRemove: 25, rightRemove: 9
+Calc: after RIGHT cut: 0=34, 1=39
+Shift: 26, windowSize: 66
+Calc for leftRemove: 26, rightRemove: 8
+Calc: after RIGHT cut: 0=33, 1=39
+Shift: 27, windowSize: 66
+Calc for leftRemove: 27, rightRemove: 7
+Calc: after RIGHT cut: 0=34, 1=37
+Shift: 28, windowSize: 66
+Calc for leftRemove: 28, rightRemove: 6
+Calc: after RIGHT cut: 0=32, 1=38
+Shift: 29, windowSize: 66
+Calc for leftRemove: 29, rightRemove: 5
+Calc: after RIGHT cut: 0=31, 1=38
+Shift: 30, windowSize: 66
+Calc for leftRemove: 30, rightRemove: 4
+Calc: after RIGHT cut: 0=30, 1=38
+Shift: 31, windowSize: 66
+Calc for leftRemove: 31, rightRemove: 3
+Calc: after RIGHT cut: 0=30, 1=37
+Shift: 32, windowSize: 66
+Calc for leftRemove: 32, rightRemove: 2
+Calc: after RIGHT cut: 0=31, 1=35
+Shift: 33, windowSize: 66
+Calc for leftRemove: 33, rightRemove: 1
+Calc: after RIGHT cut: 0=30, 1=36
+Shift: 34, windowSize: 66
+Calc for leftRemove: 34, rightRemove: 0
+Nothing found for windowSize: 66, decreasing.
+!! windowSize: 64, shifts: 36
+Shift: 0, windowSize: 64
+Calc for leftRemove: 0, rightRemove: 36
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 1, windowSize: 64
+Calc for leftRemove: 1, rightRemove: 35
+Calc: after RIGHT cut: 0=29, 1=45
+Shift: 2, windowSize: 64
+Calc for leftRemove: 2, rightRemove: 34
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 3, windowSize: 64
+Calc for leftRemove: 3, rightRemove: 33
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 4, windowSize: 64
+Calc for leftRemove: 4, rightRemove: 32
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 5, windowSize: 64
+Calc for leftRemove: 5, rightRemove: 31
+Calc: after RIGHT cut: 0=31, 1=43
+Shift: 6, windowSize: 64
+Calc for leftRemove: 6, rightRemove: 30
+Calc: after RIGHT cut: 0=31, 1=43
+Shift: 7, windowSize: 64
+Calc for leftRemove: 7, rightRemove: 29
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 8, windowSize: 64
+Calc for leftRemove: 8, rightRemove: 28
+Calc: after RIGHT cut: 0=30, 1=44
+Shift: 9, windowSize: 64
+Calc for leftRemove: 9, rightRemove: 27
+Calc: after RIGHT cut: 0=31, 1=43
+Shift: 10, windowSize: 64
+Calc for leftRemove: 10, rightRemove: 26
+Calc: after RIGHT cut: 0=32, 1=42
+Shift: 11, windowSize: 64
+Calc for leftRemove: 11, rightRemove: 25
+Calc: after RIGHT cut: 0=32, 1=42
+Shift: 12, windowSize: 64
+Calc for leftRemove: 12, rightRemove: 24
+Calc: after RIGHT cut: 0=33, 1=41
+Shift: 13, windowSize: 64
+Calc for leftRemove: 13, rightRemove: 23
+Calc: after RIGHT cut: 0=34, 1=40
+Shift: 14, windowSize: 64
+Calc for leftRemove: 14, rightRemove: 22
+Calc: after RIGHT cut: 0=34, 1=40
+Shift: 15, windowSize: 64
+Calc for leftRemove: 15, rightRemove: 21
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 16, windowSize: 64
+Calc for leftRemove: 16, rightRemove: 20
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 17, windowSize: 64
+Calc for leftRemove: 17, rightRemove: 19
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 18, windowSize: 64
+Calc for leftRemove: 18, rightRemove: 18
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 19, windowSize: 64
+Calc for leftRemove: 19, rightRemove: 17
+Calc: after RIGHT cut: 0=35, 1=39
+Shift: 20, windowSize: 64
+Calc for leftRemove: 20, rightRemove: 16
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 21, windowSize: 64
+Calc for leftRemove: 21, rightRemove: 15
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 22, windowSize: 64
+Calc for leftRemove: 22, rightRemove: 14
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 23, windowSize: 64
+Calc for leftRemove: 23, rightRemove: 13
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 24, windowSize: 64
+Calc for leftRemove: 24, rightRemove: 12
+Calc: after RIGHT cut: 0=36, 1=38
+Shift: 25, windowSize: 64
+Calc for leftRemove: 25, rightRemove: 11
+Calc: after RIGHT cut: 0=35, 1=38
+Shift: 26, windowSize: 64
+Calc for leftRemove: 26, rightRemove: 10
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 27, windowSize: 64
+Calc for leftRemove: 27, rightRemove: 9
+Calc: after RIGHT cut: 0=33, 1=38
+Shift: 28, windowSize: 64
+Calc for leftRemove: 28, rightRemove: 8
+Calc: after RIGHT cut: 0=32, 1=38
+Shift: 29, windowSize: 64
+Calc for leftRemove: 29, rightRemove: 7
+Calc: after RIGHT cut: 0=33, 1=36
+Shift: 30, windowSize: 64
+Calc for leftRemove: 30, rightRemove: 6
+Calc: after RIGHT cut: 0=31, 1=37
+Shift: 31, windowSize: 64
+Calc for leftRemove: 31, rightRemove: 5
+Calc: after RIGHT cut: 0=29, 1=38
+Shift: 32, windowSize: 64
+Calc for leftRemove: 32, rightRemove: 4
+Calc: after RIGHT cut: 0=29, 1=37
+Shift: 33, windowSize: 64
+Calc for leftRemove: 33, rightRemove: 3
+Calc: after RIGHT cut: 0=29, 1=36
+Shift: 34, windowSize: 64
+Calc for leftRemove: 34, rightRemove: 2
+Calc: after RIGHT cut: 0=30, 1=34
+Shift: 35, windowSize: 64
+Calc for leftRemove: 35, rightRemove: 1
+Calc: after RIGHT cut: 0=30, 1=34
+Shift: 36, windowSize: 64
+Calc for leftRemove: 36, rightRemove: 0
+Nothing found for windowSize: 64, decreasing.
+!! windowSize: 62, shifts: 38
+Shift: 0, windowSize: 62
+Calc for leftRemove: 0, rightRemove: 38
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 1, windowSize: 62
+Calc for leftRemove: 1, rightRemove: 37
+Calc: after RIGHT cut: 0=29, 1=43
+Shift: 2, windowSize: 62
+Calc for leftRemove: 2, rightRemove: 36
+Calc: after RIGHT cut: 0=29, 1=43
+Shift: 3, windowSize: 62
+Calc for leftRemove: 3, rightRemove: 35
+Calc: after RIGHT cut: 0=28, 1=44
+Shift: 4, windowSize: 62
+Calc for leftRemove: 4, rightRemove: 34
+Calc: after RIGHT cut: 0=29, 1=43
+Shift: 5, windowSize: 62
+Calc for leftRemove: 5, rightRemove: 33
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 6, windowSize: 62
+Calc for leftRemove: 6, rightRemove: 32
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 7, windowSize: 62
+Calc for leftRemove: 7, rightRemove: 31
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 8, windowSize: 62
+Calc for leftRemove: 8, rightRemove: 30
+Calc: after RIGHT cut: 0=29, 1=43
+Shift: 9, windowSize: 62
+Calc for leftRemove: 9, rightRemove: 29
+Calc: after RIGHT cut: 0=29, 1=43
+Shift: 10, windowSize: 62
+Calc for leftRemove: 10, rightRemove: 28
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 11, windowSize: 62
+Calc for leftRemove: 11, rightRemove: 27
+Calc: after RIGHT cut: 0=30, 1=42
+Shift: 12, windowSize: 62
+Calc for leftRemove: 12, rightRemove: 26
+Calc: after RIGHT cut: 0=31, 1=41
+Shift: 13, windowSize: 62
+Calc for leftRemove: 13, rightRemove: 25
+Calc: after RIGHT cut: 0=32, 1=40
+Shift: 14, windowSize: 62
+Calc for leftRemove: 14, rightRemove: 24
+Calc: after RIGHT cut: 0=33, 1=39
+Shift: 15, windowSize: 62
+Calc for leftRemove: 15, rightRemove: 23
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 16, windowSize: 62
+Calc for leftRemove: 16, rightRemove: 22
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 17, windowSize: 62
+Calc for leftRemove: 17, rightRemove: 21
+Calc: after RIGHT cut: 0=35, 1=37
+Shift: 18, windowSize: 62
+Calc for leftRemove: 18, rightRemove: 20
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 19, windowSize: 62
+Calc for leftRemove: 19, rightRemove: 19
+Calc: after RIGHT cut: 0=35, 1=37
+Shift: 20, windowSize: 62
+Calc for leftRemove: 20, rightRemove: 18
+Calc: after RIGHT cut: 0=35, 1=37
+Shift: 21, windowSize: 62
+Calc for leftRemove: 21, rightRemove: 17
+Calc: after RIGHT cut: 0=34, 1=38
+Shift: 22, windowSize: 62
+Calc for leftRemove: 22, rightRemove: 16
+Calc: after RIGHT cut: 0=35, 1=37
+Shift: 23, windowSize: 62
+Calc for leftRemove: 23, rightRemove: 15
+Calc: after RIGHT cut: 0=36, 1=36
